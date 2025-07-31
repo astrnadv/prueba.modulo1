@@ -1,0 +1,76 @@
+/* Hero / header */
+.hero-image {
+  background-image: url('../img/header.png');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+}
+
+/* Card custom spacing */
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 0.95rem;
+}
+
+/* General typography */
+h1,
+h2 {
+  color: #05AD99;
+}
+
+/* Contacto */
+#contacto {
+  background-color: #f1f1f1;
+}
+
+#contacto h5 {
+  color: #05AD99;
+  margin-bottom: 1rem;
+}
+
+#contacto p,
+#contacto label,
+#contacto input,
+#contacto textarea {
+  font-size: 0.9rem;
+}
+
+/* Sección Sobre mí (info) */
+#info {
+  background-color: #f1f1f1;
+}
+
+/* Botones */
+.btn-primary {
+  background-color: #05AD99;
+  border-color: #05AD99;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #048b7e;
+  border-color: #048b7e;
+}
+
+/* Íconos */
+.bi {
+  color: #05AD99;
+}
+
+a .bi {
+  transition: color 0.2s ease;
+}
+
+a:hover .bi {
+  color: #048b7e;
+}
